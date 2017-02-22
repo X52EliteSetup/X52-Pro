@@ -6,5 +6,5 @@
   
   * Open "X52ProEliteV223.pr0" in the software then save it to "C:\Users\Public\Documents\SmartTechnology Profiles".
   
-  * "X52ProElite 2.2.3.1.8.binds" needs to be copy & pasted into "C:\Users\<yourname>\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings".
-    * It will show up in the 'Controls' drop down ingame as "X52ProElite 2.2.3".
+  * "X52ProElite v2.2.3.1.8.binds" needs to be copy & pasted into "C:\Users\<yourname>\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings".
+    * It will show up in the 'Controls' drop down ingame as "X52ProElite v2.2.3".
