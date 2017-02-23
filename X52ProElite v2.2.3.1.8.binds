@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="X52ProElite v2.2.3" MajorVersion="1" MinorVersion="8">
+<Root PresetName="TX52ProElite v2.2.3" MajorVersion="1" MinorVersion="8">
 	<KeyboardLayout>en-US</KeyboardLayout>
 	<LockedDevice>{NoDevice}</LockedDevice>
 	<MouseXMode Value="" />
@@ -62,9 +62,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchDownButton>
 	<LateralThrustRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_RYAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.00000000" />
 	</LateralThrustRaw>
 	<LeftThrustButton>
 		<Primary Device="Keyboard" Key="Key_O" />
@@ -75,9 +75,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton>
 	<VerticalThrustRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_RXAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.00000000" />
 	</VerticalThrustRaw>
 	<UpThrustButton>
 		<Primary Device="Keyboard" Key="Key_LeftBracket" />
@@ -102,12 +102,12 @@
 	</BackwardThrustButton>
 	<YawAxisAlternate>
 		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxisAlternate>
 	<RollAxisAlternate>
 		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollAxisAlternate>
 	<PitchAxisAlternate>
@@ -609,11 +609,11 @@
 	</CamPitchAxis>
 	<CamPitchUp>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="Keyboard" Key="Key_C" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchUp>
 	<CamPitchDown>
-		<Primary Device="Keyboard" Key="Key_G" />
-		<Secondary Device="Keyboard" Key="Key_Z" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchDown>
 	<CamYawAxis>
 		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
@@ -635,11 +635,11 @@
 	</CamTranslateYAxis>
 	<CamTranslateForward>
 		<Primary Device="Keyboard" Key="Key_RightBracket" />
-		<Secondary Device="Keyboard" Key="Key_W" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateForward>
 	<CamTranslateBackward>
 		<Primary Device="Keyboard" Key="Key_LeftBracket" />
-		<Secondary Device="Keyboard" Key="Key_S" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -648,11 +648,11 @@
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
 		<Primary Device="Keyboard" Key="Key_O" />
-		<Secondary Device="Keyboard" Key="Key_A" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateLeft>
 	<CamTranslateRight>
 		<Primary Device="Keyboard" Key="Key_End" />
-		<Secondary Device="Keyboard" Key="Key_D" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateRight>
 	<CamTranslateZAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -661,11 +661,11 @@
 	</CamTranslateZAxis>
 	<CamTranslateUp>
 		<Primary Device="Keyboard" Key="Key_BackSlash" />
-		<Secondary Device="Keyboard" Key="Key_F" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateUp>
 	<CamTranslateDown>
 		<Primary Device="Keyboard" Key="Key_Tab" />
-		<Secondary Device="Keyboard" Key="Key_V" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateDown>
 	<CamZoomAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -678,7 +678,7 @@
 	</CamZoomIn>
 	<CamZoomOut>
 		<Primary Device="Keyboard" Key="Key_I" />
-		<Secondary Device="Keyboard" Key="Key_X" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CamZoomOut>
 	<CamTranslateZHold>
 		<Primary Device="{NoDevice}" Key="" />
