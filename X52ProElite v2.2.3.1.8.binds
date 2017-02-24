@@ -869,31 +869,31 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus_Buggy>
 	<FocusLeftPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel_Buggy>
 	<FocusCommsPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel_Buggy>
 	<QuickCommsPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel_Buggy>
 	<FocusRadarPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRadarPanel_Buggy>
 	<FocusRightPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel_Buggy>
 	<GalaxyMapOpen_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Slash" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen_Buggy>
 	<SystemMapOpen_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_SemiColon" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen_Buggy>
 	<HeadLookToggle_Buggy>
