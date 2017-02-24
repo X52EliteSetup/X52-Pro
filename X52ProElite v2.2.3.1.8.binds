@@ -751,7 +751,7 @@
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="Keyboard" Key="Key_X" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Backspace" />
 		<ToggleOn Value="0" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
