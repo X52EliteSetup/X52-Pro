@@ -923,7 +923,7 @@
 		<Primary Device="Keyboard" Key="Key_T">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_6" />
 	</OrderFocusTarget>
 	<OrderHoldFire>
 		<Primary Device="Keyboard" Key="Key_H">
