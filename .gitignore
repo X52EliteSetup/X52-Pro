@@ -4,3 +4,4 @@ env
 *log
 *swp
 __pycache__/
+config.py
