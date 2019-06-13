@@ -9,8 +9,16 @@
  * "X52ProElite v2.2.3.1.8.binds" needs to be copy & pasted into ```"C:\Users\<yourname>\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings"```.
     * It will show up in the 'Controls' drop down ingame as ```"X52ProElite v2.2.3"```.
 
+# Using the tool to deploy and collect files
 
-#GOTchas when editing profiles
+If you have already python and make, nothing to worry about, just run `make deploy` and `make collect`. 
+
+If you don't have python, install it and put it in the path, or install it and modify the Makefile with the path to your python.exe
+
+If you don't want to use make, check the Makefile on how to run the script and just do that.
+
+
+# GOTchas when editing profiles
 
 - the tool is shit. sorry, there is no way to put it softer. is just really bad. having said that, amazing people can get amazing results with it. I struggled.
 
