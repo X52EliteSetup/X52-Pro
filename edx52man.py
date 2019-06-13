@@ -41,10 +41,12 @@ def collect_files():
     # oops, we should make sure we are in the right location first of all.
     # first get the profile, then the bindings.
     profile_path = os.path.join(pr_location,filename_profile_custom) 
+    profile_destiny= os.path.join(source_location, filename_profile)
     bindings_path = os.path.join(elite_location, filename_binds)
-    c = invoke.run('cp "{}" "{}"'.format(profile_path, source_location), warn=True)
+    #TODO: Stash the files before collecting???
+    c = invoke.run('cp "{}" "{}"'.format(profile_path, profile_destiny), warn=True)
     d = invoke.run('cp "{}" "{}"'.format(bindings_path, source_location), warn=True)
-    invoke.run("git diff")
+    diff = invoke.run("git diff")
     if not c.ok or not d.ok:
         print("FAIL: Some shit went wrong while copyng files")
     return (c.ok and d.ok)
