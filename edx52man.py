@@ -27,7 +27,7 @@ def cp(a,b):
 
 def deploy_files():
     """put the files in the right places"""
-    local_profile = os.path.join(source_location, filename_profile_custom)
+    local_profile = os.path.join(source_location, filename_profile)
     local_bindings = os.path.join(source_location, filename_binds)
     c = cp(local_profile, pr_location)
     d = cp(local_bindings, elite_location) 
@@ -40,7 +40,7 @@ def collect_files():
     """get all the files from the deployed locations"""
     # oops, we should make sure we are in the right location first of all.
     # first get the profile, then the bindings.
-    profile_path = os.path.join(pr_location,filename_profile_custom) 
+    profile_path = os.path.join(pr_location,filename_profile) 
     profile_destiny= os.path.join(source_location, filename_profile)
     bindings_path = os.path.join(elite_location, filename_binds)
     #TODO: Stash the files before collecting???
@@ -61,6 +61,7 @@ if __name__=="__main__":
     # and then do all the argparse stuff 
     a = argparse.ArgumentParser(description="manage your ED config files, to make it easier to have your files under version control")
     a.add_argument("operation", nargs="?", help="Choose to 'deploy' or 'collect' the files", choices=("deploy","collect","check"), default="check")
+    # TODO: Add an argument to support a custom name for the settings, with like a nick or something
     #a.title="choose to deploy or collect the files modified by E:D or Profile Editor"
 
     opts = a.parse_args()
