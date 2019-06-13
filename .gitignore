@@ -1,0 +1,7 @@
+gitignore
+env2
+env
+*log
+*swp
+__pycache__/
+config.py

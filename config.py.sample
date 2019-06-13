@@ -1,0 +1,44 @@
+# coding: utf-8
+#
+# This is a config file, but:
+# You probably don't need to modify it, unless you have weird settings, or
+# you have some custom setup. Like I do.
+#
+# In the end, this is just python, so you can do anything you can do in python.
+# Some basic rules (if you don't know python:
+#   - respect the spaces at the start of the line
+#   - watch out for the little r in front of the folders locations
+
+################################################################################
+# Your username (Only if differs from the windows name
+################################################################################
+import os
+username=os.getlogin() # by default will be the one in c:/Users/{here} 
+
+################################################################################
+# Folders
+################################################################################
+
+# Location of the repository with version control files
+source_location = os.path.abspath(os.path.curdir)
+
+# Profile location of the x52 config tool (Usually in Public user, or your user's Documents)
+pr_location=r"C:\Users\Public\Documents\SmartTechnology Profiles"
+
+# Elite dangerous bindings location (usually within your user's AppData\Local\...)
+elite_location=r"C:\Users\{username}\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings".format(username=username)
+
+################################################################################
+# Filenames - This you can customize
+################################################################################
+
+# Binding filename - usally a fixed string and a version
+# filename_binds="X52ProElite v2.2.3.1.8.binds" # old. no longer used in ED Horizons
+filename_binds = "X52ProElite v2.2.3.3.0.binds"
+
+# Profiles filename - the standard one
+filename_profile="X52ProEliteV223.pr0"
+
+# Custom Profile - a different one if you just want to be different, whatever.
+filename_profile_custom="X52ProEliteV223{0}.pr0".format("Your_CMDR_name")
+
